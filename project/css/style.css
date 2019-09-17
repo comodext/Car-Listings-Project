@@ -1,0 +1,530 @@
+/*.gradient {
+  background-image: cross-fade(),
+  url("C:\Users\Nzubechukwu\Desktop\CHINEDU\bootcamp\day6\project\tools\Adrian-Flux-Driverless-Dashboard-00-bckgrnd.jpg")
+}*/
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+}
+
+header {
+  padding: 25px;
+  /*background: url("../tools/Adrian-Flux-Driverless-Dashboard-00-bckgrnd.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  font-size: 19px;
+  font-family: 'Chilanka', cursive;
+  color: rgb(30, 39, 58);
+}
+
+header .logo {
+  text-decoration: none;
+  color: #1e2020;
+  float: left;
+}
+
+nav {
+  display: block;
+  margin-bottom: 100px
+}
+
+nav .nav-links {
+  display: inline-block;
+  padding: 0;
+
+}
+
+nav .nav-links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+nav .nav-links li a {
+  color: #030303;
+  text-decoration: none;
+}
+
+div.wheel {
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.wheel h2 {
+  margin-bottom: 10px;
+}
+
+.wheel p {
+  margin-top: 10px;
+}
+
+.button {
+  background: rgb(181, 10, 4);
+  background: linear-gradient(0deg, rgb(181, 25, 4) 0%, rgb(236, 1, 1) 100%);
+  padding: 10px 15px;
+  font-size: 11px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'Chilanka', cursive;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*body {
+  font-family: sans-serif;
+  padding: 0 !important;
+  margin: 0 !important;
+}*/
+/*
+#mission {
+  background: #f4fdff;
+  padding: 25px;
+}
+
+.mission {
+  width: 60%;
+  padding: 50px;
+  margin: 0 auto 50px auto;
+  background: url("assets/Group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mission .mission p {
+  font-size: 19px;
+  color: #1D2027;
+}
+
+#mission .mission h2 small,
+#values .values h2 small,
+#approach .approach h2 small,
+#evidence .evidence h2 small,
+#study .study h2 small,
+#products .products h2 small,
+#partners .partners h2 small,
+#leadership .leadership h2 small,
+#contact .contact h2 small {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #737373;
+}
+
+.row {
+  width: 100%;
+  display: block;
+}
+
+#values .values {
+  width: 80%;
+  margin: 0 auto 50px auto;
+}
+
+#values .values .boxes {
+  width: 25%;
+  padding: 25px;
+  margin: 20px;
+  display: inline-block;
+  background: #F9F9F9;
+  text-align: left;
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+#approach {
+  background: #FFF7FE;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+#approach .approach {
+  width: 40%;
+  margin: 30px auto 50px auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-40 {
+  width: 40%;
+  display: inline-block;
+}
+
+.w-50 {
+  width: 50%;
+  display: inline-block;
+}
+
+.margin-5 {
+  margin: 5px;
+}
+
+.margin-r40 {
+  margin-right: 25px;
+}
+
+.margin-l40 {
+  margin-left: 25px;
+}
+
+.m-top-50 {
+  padding-top: 50px;
+}
+
+.m-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.w-16 {
+  width: 20%;
+  display: inline-block;
+}
+
+.w-25 {
+  width: 20%;
+  display: inline-block;
+}
+
+#approach .approach .boxes {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  border-radius: 30px;
+  box-shadow: 0px 10px 13px #dbdbdb;
+}
+
+.push-down {
+  top: 80px;
+  position: relative;
+}
+
+#evidence {
+  background: #ffffff;
+}
+
+#evidence .evidence {
+  width: 80%;
+  margin: 0 auto 50px auto;
+  padding-top: 20px;
+}
+
+#evidence .evidence .boxes {
+  width: 25%;
+  padding: 25px;
+  margin: 20px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  box-shadow: 10px 10px 10px 13px #f3f3f3;
+}
+
+#evidence .evidence .boxes p {
+  font-size: 16px;
+  color: #00b3ef;
+  text-align: right;
+  font-weight: bold;
+}
+
+#study {
+  background: #f5fdff;
+}
+
+#study .study {
+  width: 80%;
+  margin: 0 auto 50px auto;
+  padding-top: 20px;
+}
+
+#study .study .boxes {
+  width: 25%;
+  padding: 25px;
+  margin: 20px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  box-shadow: 8px 10px 10px 10px #dde5e7;
+}
+
+#study .study .boxes p {
+  font-size: 16px;
+  color: #00b3ef;
+  text-align: right;
+  font-weight: bold;
+}
+
+#user {
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#study .study .user small {
+  font-size: 14px;
+  color: #00b3ef;
+  text-align: center;
+  font-weight: normal;
+}
+
+#study .study .user .arrows {
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+#dot {
+  color: #bababa;
+  letter-spacing: 10px;
+}
+
+button {
+  color: #fefeff;
+  box-shadow: 10px 10px 13px #e4ecee;
+  border-radius: 50px;
+}
+
+#products {
+  background: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#products .products {
+  width: 80%;
+  margin: auto;
+}
+
+#products .products .boxes {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 11px #f3f3f3;
+}
+
+#market {
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 300;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.lab input {
+  font-size: 9px;
+  background-color: #c1f9d0;
+  border-radius: 5px;
+  width: inherit;
+}
+
+#shield1,
+#shield2,
+#shield3,
+#shield4,
+#shield5,
+#shield6 {
+  padding: 25px 2px 0 2px;
+  text-align: center;
+}
+
+#shield1 {
+  background-color: #891890;
+}
+
+#shield2 {
+  background-color: #adc01c;
+}
+
+#shield3 {
+  background-color: #00a9ea;
+}
+
+#shield4 {
+  background-color: #f75b22;
+}
+
+#shield5 {
+  background-color: #001423;
+}
+
+#shield6 {
+  background-color: #fea50c;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#partners {
+  background: #fff7fe;
+  padding-top: 20px;
+}
+
+#partners .partners {
+  width: 80%;
+  margin: auto;
+}
+
+#partners .partners .boxes {
+  padding: 15px;
+  display: inline-block;
+
+}
+
+#researchp {
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 300;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#leadership {
+  background: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#leadership .leadership {
+  width: 60%;
+  margin: auto;
+}
+
+#leadership .leadership .boxes {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  background: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  border-radius: 30px;
+}
+
+#contactusimg {
+  border-color: #ffffff;
+
+}
+
+#contactus {
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 300;
+
+}
+
+#contact {
+  background: #f5fdff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#contact .contact {
+  width: 100%;
+  margin: auto;
+}
+
+#contact .contact .boxes {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+.submit {
+  background: #00c3e5;
+  background: linear-gradient(0deg, rgba(4, 140, 181, 1) 0%, rgba(1, 204, 236, 1) 100%);
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  width: 150px;
+  float: right;
+
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  margin-top: auto;
+  margin-bottom: 15px;
+  font-size: 10px;
+  border-radius: 6px;
+  background-color: #f5fdff;
+}
+
+textarea {
+  border-radius: 6px;
+  background-color: #f5fdff;
+}
+
+#policy {
+  display: inline-block;
+  padding: 0 50px 50px 0;
+  float: right;
+}
+
+#copyright {
+  float: left;
+  padding: 0 0 50px 50px;
+  color: #7f7f7f;
+}
+
+.footer .row .boxes h5 {
+  color: #00b3ef;
+}
+
+#products .products .rows .boxes .photo {
+  width: 80px;
+  height: 80px;
+  background-color: #891890;
+  padding: 20px;
+}
+
+.address {
+  color: #7f7f7f;
+}
+*/
